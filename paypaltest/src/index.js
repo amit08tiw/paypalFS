@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Carousel from './components/carousel.js'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Carousel />
   </React.StrictMode>,
   document.getElementById('root')
 );
